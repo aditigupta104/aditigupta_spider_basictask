@@ -1,0 +1,49 @@
+Link to the file-( https://1drv.ms/w/c/e7dfaecfdb6baad0/EWy9923qo0BBm6P2uFpwJSYBn765uEOFVm0iwY3LA4LYmw?e=LRjHa2  )
+COMPUTER NETWORKING
+BASIC TASK:
+Question 1: What types of traffic (HTTP, DNS, FTP, etc.) are present?
+Answer: Types of traffic present are as follows:
+1.	DNS – Domain Name System
+2.	TCP – Transmission Control System
+3.	HTTP – Hypertext Markup Language
+4.	MDNS – Multicast Domain System
+5.	IPV4 – Internet Protocol Version 4
+6.	UDP – User Datagram Protocol
+Question 2: How many DNS queries were made in total?
+Answer: Total Packets of DNS- 714, Query- 357, Response- 357
+Question 3: What types of DNS queries were made?
+Answer: Types of DNS queries made were:
+1.	A- 286
+2.	AAAA- 282
+3.	HTTPS- 144
+4.	PTR- 2
+Question 4: What is a Loopback Interface?
+Answer: When a program on our computer communicates with another program on the local web server, the traffic is sent through the Loopback Interface. The standard IPV4 loopback address is 127.0.0.1. It is used for local testing of network applications.
+ To capture Loopback traffic, open wireshark, select ‘Adapter for loopback traffic capture’ and add filter ‘ip.addr==127.0.0.1’ to focus on loopback traffic.
+Question 5: How many .txt files were requested? List their names.
+Answer: Total 3 found.
+1.	Decoy1.txt
+2.	Decoy2.txt
+3.	encoded.txt
+Question 6: One .txt file contains base64-encoded content. Identify and decode it. What does it contain?
+Answer: RkxBR3tzcGlkM3JfbmV0d29ya19tYXN0ZXJ9Cg==
+( HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.12.3
+Date: Sat, 10 May 2025 13:08:22 GMT
+Content-type: text/plain
+Content-Length: 41
+Last-Modified: Sat, 10 May 2025 13:03:28 GMT
+0.000189s
+RkxBR3tzcGlkM3JfbmV0d29ya19tYXN0ZXJ9Cg== )
+Question 7: Was any attempt made to distract the analyst using decoy files? Explain.
+Answer: Yes, these files waste analyst’s time and it also hides the real malicious payload among harmless-looking files. It is also used to hide data inside these normal texts. Both the decoy files contain, ‘ this is just normal decoy’ or ‘Nothing to see here’. 
+Question 8: Are there any known ports being used for uncommon services?
+Answer:    No.
+Question 9: How many HTTP GET requests are visible in the capture?
+Answer:   3 
+Question 10: What User-Agent was used to make the HTTP requests?
+Answer:   curl/8.5.0\r\n
+
+
+
+
