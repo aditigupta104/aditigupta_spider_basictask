@@ -1,1 +1,1 @@
-# aditigupta_spider_basictask
+This repository contains the basic tasks of Computer Networking, Blockchain, Application development. The computer networking file contains word document content so I have added a link to the word document also. And the Hammer strength game html and script file is provided. Blockchain task is done by using python. 
